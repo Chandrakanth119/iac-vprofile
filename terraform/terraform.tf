@@ -26,11 +26,7 @@ terraform {
     }
   }
 
-<<<<<<< HEAD
   backend "s3" {
-=======
-backend "s3" {
->>>>>>> 6fb5c53edba8c845ec861cda046177510699b133
     bucket = "vprofileactions1901"
     key    = "terraform.tfstate"
     region = "us-east-1"
