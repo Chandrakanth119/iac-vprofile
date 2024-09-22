@@ -26,10 +26,14 @@ terraform {
     }
   }
 
+<<<<<<< HEAD
   backend "s3" {
-    bucket = "gitopsterrastate"
+=======
+backend "s3" {
+>>>>>>> 6fb5c53edba8c845ec861cda046177510699b133
+    bucket = "vprofileactions1901"
     key    = "terraform.tfstate"
-    region = "us-east-2"
+    region = "us-east-1"
   }
 
   required_version = "~> 1.6.3"
